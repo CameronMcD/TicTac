@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:rowCount="7">
+
+        <TextView
+            android:id="@+id/page_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:paddingTop="75sp"
+            android:text="cheese_facts"
+            android:textColor="#FF0099"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Viscosity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:text="viscosity"
+            android:textColor="#0099FF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/meltingPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:text="meltingPoint"
+            android:textColor="#0099FF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:text="origin"
+            android:textColor="#0099FF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/add_list_item_btn"
+            android:text="Add new List Item"
+            android:layout_row="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+
+    </GridLayout>
+
+</FrameLayout>
